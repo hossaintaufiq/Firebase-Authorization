@@ -1,9 +1,14 @@
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
     return (
         <div>
-            <h2>This is header </h2>
+            <div className="flex  justify-between  ">
+            <Link to ="/">Home</Link>
+            <Link to= "/login"> Login </Link>
+            </div>
+            
         </div>
     );
 };
